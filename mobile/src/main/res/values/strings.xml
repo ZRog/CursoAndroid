@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CursoAndroid</string>
+    <string name="app_mensaje">Bienvenido</string>
+    <string name="app_boton">Entrar</string>
 </resources>
