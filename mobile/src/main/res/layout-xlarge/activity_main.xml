@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pruebita"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/pruebita">
 
     <TextView
         android:layout_width="wrap_content"
@@ -13,7 +13,7 @@
         android:id="@+id/textView3"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="93dp"
+        android:layout_marginTop="127dp"
         android:textSize="40dp"
         android:textColor="#ffffff" />
 
@@ -22,9 +22,8 @@
         android:layout_height="wrap_content"
         android:text="@string/app_boton"
         android:id="@+id/button3"
-        android:layout_below="@+id/textView3"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
-        android:background="#00ffffff"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+        android:background="#00ffffff" />
 </RelativeLayout>
